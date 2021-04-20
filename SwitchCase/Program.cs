@@ -17,28 +17,30 @@ namespace SwitchCase
                 "\n4.- División" +
                 "\n5.- Salir");
 
-                string s1 = null;
-            s1 = Console.ReadLine();
+            string s1 = null;
+            int i1;
 
-            switch (s1)
+            s1 = Console.ReadLine();
+            i1= Convert.ToInt32(Console.ReadLine());
+            switch (i1)
             {
-                case "1":
+                case 1:
                     Console.WriteLine("Se seleccionó la suma");
                 break;
 
-                case "2":
+                case 2:
                     Console.WriteLine("Se seleccionó la resta");
                 break;
 
-                case "3":
+                case 3:
                     Console.WriteLine("Se seleccionó la multiplicación");
                 break;
 
-                case "4":
+                case 4:
                     Console.WriteLine("Se seleccionó la división");
                 break;
 
-                case "5":
+                case 5:
                     Console.WriteLine("Desea Salir?");
                 break;
 
